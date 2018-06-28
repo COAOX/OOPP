@@ -1,2 +1,2 @@
 # OOPP
-This file is 
+This file is our homework project or the class OOPPPPPPP
