@@ -20,6 +20,7 @@ using Point2D = std::pair<int, int>;
 const int TestSize = 10000;
 const int PickSize = 1000;
 
+
 int main()
 {
 	auto start = std::chrono::high_resolution_clock::now();
