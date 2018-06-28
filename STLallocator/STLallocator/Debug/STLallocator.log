@@ -1,0 +1,85 @@
+﻿  STLallocator.cpp
+d:\各种官方软件\visual studio\vc\tools\msvc\14.10.25017\include\xmemory0(1053): error C2664: “allocato<_other>::allocato(allocato<_other> &&)”: 无法将参数 1 从“std::_Wrap_alloc<allocato<PointVec>>”转换为“const allocato<_other> &”
+          with
+          [
+              _other=std::_Container_proxy
+          ]
+  d:\各种官方软件\visual studio\vc\tools\msvc\14.10.25017\include\xmemory0(1053): note: 原因如下: 无法从“std::_Wrap_alloc<allocato<PointVec>>”转换为“const allocato<_other>”
+          with
+          [
+              _other=std::_Container_proxy
+          ]
+  d:\各种官方软件\visual studio\vc\tools\msvc\14.10.25017\include\xmemory0(1053): note: 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  d:\各种官方软件\visual studio\vc\tools\msvc\14.10.25017\include\vector(596): note: 参见对正在编译的函数 模板 实例化“std::_Wrap_alloc<allocato<_other>>::_Wrap_alloc<std::_Wrap_alloc<allocato<PointVec>>&>(_Other) noexcept”的引用
+          with
+          [
+              _other=std::_Container_proxy,
+              _Other=std::_Wrap_alloc<allocato<PointVec>> &
+          ]
+  d:\各种官方软件\visual studio\vc\tools\msvc\14.10.25017\include\vector(596): note: 参见对正在编译的函数 模板 实例化“std::_Wrap_alloc<allocato<_other>>::_Wrap_alloc<std::_Wrap_alloc<allocato<PointVec>>&>(_Other) noexcept”的引用
+          with
+          [
+              _other=std::_Container_proxy,
+              _Other=std::_Wrap_alloc<allocato<PointVec>> &
+          ]
+  d:\各种官方软件\visual studio\vc\tools\msvc\14.10.25017\include\vector(594): note: 编译 类 模板 成员函数 "void std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>::_Free_proxy(void)" 时
+          with
+          [
+              _Ty=PointVec,
+              _Alloc=allocato<PointVec>
+          ]
+  d:\各种官方软件\visual studio\vc\tools\msvc\14.10.25017\include\vector(547): note: 参见对正在编译的函数 模板 实例化“void std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>::_Free_proxy(void)”的引用
+          with
+          [
+              _Ty=PointVec,
+              _Alloc=allocato<PointVec>
+          ]
+  d:\各种官方软件\visual studio\vc\tools\msvc\14.10.25017\include\vector(701): note: 参见对正在编译的 类 模板 实例化 "std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>" 的引用
+          with
+          [
+              _Ty=PointVec,
+              _Alloc=allocato<PointVec>
+          ]
+  d:\visual studio 2017\projects\stlallocator\stlallocator\stlallocator.cpp(38): note: 参见对正在编译的 类 模板 实例化 "std::vector<PointVec,allocato<PointVec>>" 的引用
+d:\各种官方软件\visual studio\vc\tools\msvc\14.10.25017\include\xmemory0(1053): error C2664: “allocato<_other>::allocato(allocato<_other> &&)”: 无法将参数 1 从“std::_Wrap_alloc<allocato<IntVec>>”转换为“const allocato<_other> &”
+          with
+          [
+              _other=std::_Container_proxy
+          ]
+  d:\各种官方软件\visual studio\vc\tools\msvc\14.10.25017\include\xmemory0(1053): note: 原因如下: 无法从“std::_Wrap_alloc<allocato<IntVec>>”转换为“const allocato<_other>”
+          with
+          [
+              _other=std::_Container_proxy
+          ]
+  d:\各种官方软件\visual studio\vc\tools\msvc\14.10.25017\include\xmemory0(1053): note: 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  d:\各种官方软件\visual studio\vc\tools\msvc\14.10.25017\include\vector(596): note: 参见对正在编译的函数 模板 实例化“std::_Wrap_alloc<allocato<_other>>::_Wrap_alloc<std::_Wrap_alloc<allocato<IntVec>>&>(_Other) noexcept”的引用
+          with
+          [
+              _other=std::_Container_proxy,
+              _Other=std::_Wrap_alloc<allocato<IntVec>> &
+          ]
+  d:\各种官方软件\visual studio\vc\tools\msvc\14.10.25017\include\vector(596): note: 参见对正在编译的函数 模板 实例化“std::_Wrap_alloc<allocato<_other>>::_Wrap_alloc<std::_Wrap_alloc<allocato<IntVec>>&>(_Other) noexcept”的引用
+          with
+          [
+              _other=std::_Container_proxy,
+              _Other=std::_Wrap_alloc<allocato<IntVec>> &
+          ]
+  d:\各种官方软件\visual studio\vc\tools\msvc\14.10.25017\include\vector(594): note: 编译 类 模板 成员函数 "void std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>::_Free_proxy(void)" 时
+          with
+          [
+              _Ty=IntVec,
+              _Alloc=allocato<IntVec>
+          ]
+  d:\各种官方软件\visual studio\vc\tools\msvc\14.10.25017\include\vector(547): note: 参见对正在编译的函数 模板 实例化“void std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>::_Free_proxy(void)”的引用
+          with
+          [
+              _Ty=IntVec,
+              _Alloc=allocato<IntVec>
+          ]
+  d:\各种官方软件\visual studio\vc\tools\msvc\14.10.25017\include\vector(701): note: 参见对正在编译的 类 模板 实例化 "std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>" 的引用
+          with
+          [
+              _Ty=IntVec,
+              _Alloc=allocato<IntVec>
+          ]
+  d:\visual studio 2017\projects\stlallocator\stlallocator\stlallocator.cpp(33): note: 参见对正在编译的 类 模板 实例化 "std::vector<IntVec,allocato<IntVec>>" 的引用
