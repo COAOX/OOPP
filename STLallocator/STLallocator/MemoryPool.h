@@ -1,4 +1,5 @@
 #pragma once
+#include <cstddef>
 
 class MemoryPool
 {
@@ -22,7 +23,7 @@ private:
 	void *chunkAlloc(size_t _Count, int &objs);
 	void* refill(size_t _Count);
 public:
-	void *allocate(size_t _Count);
-	void deallocate(void *ptr, size_t _Count);
+	void *allocate_pool(size_t _Count);
+	void deallocate_pool(void *ptr, size_t _Count);
 
 };

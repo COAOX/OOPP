@@ -23,7 +23,7 @@
     <ProjectGuid>{924A27CF-3B09-46CE-A47F-7B60DAAC2468}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>STLallocator</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
