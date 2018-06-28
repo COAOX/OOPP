@@ -1,7 +1,9 @@
 #include "MemoryPool.h"
 #include "stdafx.h"
 #include <string>
+#include <cstddef>
 
+using namespace std;
 
 class MemoryPool
 {

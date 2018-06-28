@@ -1,7 +1,6 @@
 #include "stdafx.h"
 #include <string>
 #include <cstddef>
-#include <stddef.h>
 #include "MemoryPool.h"
 #define __MAX_BYTES 128
 
